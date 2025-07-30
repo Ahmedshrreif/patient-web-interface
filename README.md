@@ -123,7 +123,7 @@ The `.github/workflows/ci-cd.yml` file defines the CI/CD pipeline. On every push
 1. Checkout the code.
 2. Log in to Docker Hub using `DOCKER_USERNAME` and `DOCKER_PASSWORD` secrets.
 3. Build the Docker image for the application.
-4. Push the `storm00/patient-web-interface:latest` image to Docker Hub.
+4. Push the `ahmedshreif/patient-web-interface:latest` image to Docker Hub.
 
 **Note**: Ensure you have configured `DOCKER_USERNAME` and `DOCKER_PASSWORD` as secrets in your GitHub repository settings.
 
