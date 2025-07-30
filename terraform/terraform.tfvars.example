@@ -1,0 +1,10 @@
+# Example Terraform variables file
+# Copy this file to terraform.tfvars and update with your values
+
+aws_region = "us-east-1"
+vpc_cidr_block = "10.0.0.0/16"
+public_subnet_cidr_block = "10.0.1.0/24"
+ami_id = "ami-0c02fb55956c7d316"  # Ubuntu 20.04 LTS in us-east-1
+instance_type = "t2.micro"
+key_pair_name = "patient-key-pair"  # Make sure this key pair exists in your AWS account
+
