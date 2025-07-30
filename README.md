@@ -133,4 +133,3 @@ The `.github/workflows/ci-cd.yml` file defines the CI/CD pipeline. On every push
 
 ![App Running](./screenshot.png)
 # Patient-Web-interface
-
